@@ -123,15 +123,15 @@ export default function Home() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', margin: '2rem 0' }}>
           <div style={{ background: 'rgba(255,255,255,0.1)', padding: '1.5rem', borderRadius: '8px' }}>
             <strong style={{ display: 'block', marginTop: '0.5rem' }}>📞 WhatsApp/Telepon</strong>
-            <p style={{ marginTop: '0.5rem' }}>+62 812-3456-7890</p>
+            <p style={{ marginTop: '0.5rem' }}>+62 822-2096-3693</p>
           </div>
           <div style={{ background: 'rgba(255,255,255,0.1)', padding: '1.5rem', borderRadius: '8px' }}>
             <strong style={{ display: 'block', marginTop: '0.5rem' }}>📧 Email</strong>
-            <p style={{ marginTop: '0.5rem' }}>info@watutech.id</p>
+            <p style={{ marginTop: '0.5rem' }}>watutech.id@gmail.com</p>
           </div>
           <div style={{ background: 'rgba(255,255,255,0.1)', padding: '1.5rem', borderRadius: '8px' }}>
             <strong style={{ display: 'block', marginTop: '0.5rem' }}>📍 Lokasi</strong>
-            <p style={{ marginTop: '0.5rem' }}>Semarang, Central Java<br/>Indonesia</p>
+            <p style={{ marginTop: '0.5rem' }}>Jl. Sawojajar No.2, Dabag, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283<br/>Indonesia</p>
           </div>
         </div>
 
