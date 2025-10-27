@@ -56,8 +56,8 @@ export default function Home() {
       </section>
 
       {/* Advantages Section */}
-      <section id="keunggulan" style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto', background: 'linear-gradient(135deg, #f0f7ff 0%, #e0f4ff 100%)' }}>
-        <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '3rem', color: '#0066cc' }}>Keunggulan WatuTech</h2>
+      <section id="keunggulan" style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto', background: 'linear-gradient(135deg, #0066cc 0%, #00a8e8 100%)', color: 'white', }}>
+        <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '3rem' }}>Keunggulan WatuTech</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
           {[
             { title: 'Tepat Waktu', desc: 'Kami selalu mengupayakan pengerjaan tidak pernah melewati deadline yang diberikan klien.' },
@@ -120,7 +120,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer style={{ background: '#1a1a1a', color: 'white', textAlign: 'center', padding: '2rem' }}>
+      {/* Soft light-blue footer matching site palette; dark-blue text for contrast */}
+      <footer style={{ background: 'linear-gradient(135deg, #eaf8ff 0%, #4c5255ff 60%)', color: '#b0b9c0ff', textAlign: 'center', padding: '2rem' }}>
         <p style={{ margin: '0.5rem 0' }}>&copy; 2025 WatuTech - Innovation and Solutions. All rights reserved.</p>
         <p style={{ margin: '0.5rem 0' }}>Trainer Elektronik & Digital untuk Akademik & Korporat</p>
       </footer>
