@@ -7,28 +7,8 @@ export default function Home() {
       <header style={{ background: 'linear-gradient(135deg, #0066cc 0%, #00a8e8 100%)', color: 'white', padding: '1rem 0', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
         <nav style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 2rem' }}>
           <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.2rem', fontWeight: '600', textDecoration: 'none', color: 'white', letterSpacing: '0.5px' }}>
-            <svg width="35" height="35" viewBox="0 0 100 100" style={{ flexShrink: 0 }}>
-              <defs>
-                <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style={{ stopColor: '#0066cc', stopOpacity: 1 }} />
-                  <stop offset="100%" style={{ stopColor: '#00a8e8', stopOpacity: 1 }} />
-                </linearGradient>
-              </defs>
-              {/* Hexagon */}
-              <polygon points="50,10 90,35 90,85 50,110 10,85 10,35" fill="url(#hexGradient)" />
-              {/* Connection points */}
-              <circle cx="35" cy="30" r="8" fill="white" />
-              <circle cx="65" cy="30" r="8" fill="white" />
-              <circle cx="50" cy="85" r="8" fill="white" />
-              {/* Lines */}
-              <line x1="50" y1="25" x2="50" y2="77" stroke="white" strokeWidth="2" />
-              <line x1="35" y1="38" x2="50" y2="77" stroke="white" strokeWidth="2" />
-              <line x1="65" y1="38" x2="50" y2="77" stroke="white" strokeWidth="2" />
-            </svg>
-            <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.1' }}>
-              <span style={{ fontSize: '1.3rem', fontWeight: '700', letterSpacing: '-0.5px' }}>Watu</span>
-              <span style={{ fontSize: '1.1rem', fontWeight: '600', color: '#00d4ff' }}>Tech</span>
-            </div>
+            {/* Using rectangular logo that already includes text. Adjust width/height as needed. */}
+            <Image src="/logo.png" alt="WatuTech logo" width={140} height={35} style={{ flexShrink: 0 }} />
           </a>
           <ul style={{ display: 'flex', gap: '2rem', listStyle: 'none' }}>
             <li><a href="#layanan" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Layanan</a></li>
