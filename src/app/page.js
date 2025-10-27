@@ -4,19 +4,20 @@ export default function Home() {
   return (
     <div style={{ fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif', lineHeight: '1.6', color: '#333' }}>
       {/* Header */}
-      <header style={{ background: 'linear-gradient(135deg, #0066cc 0%, #00a8e8 100%)', color: 'white', padding: '1rem 0', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
+      {/* Only header changed: use white background and rectangular logo (logo.png). Nav links and CTA adjusted for contrast. */}
+      <header style={{ background: 'white', color: '#333', padding: '1rem 0', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
         <nav style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 2rem' }}>
-          <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.2rem', fontWeight: '600', textDecoration: 'none', color: 'white', letterSpacing: '0.5px' }}>
-            {/* Using rectangular logo that already includes text. Adjust width/height as needed. */}
-            <Image src="/logo.png" alt="WatuTech logo" width={140} height={35} style={{ flexShrink: 0 }} />
+          <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.2rem', fontWeight: '600', textDecoration: 'none', color: '#333', letterSpacing: '0.5px' }}>
+            {/* Rectangular logo includes text; path: /logo.png */}
+            <Image src="/logo.png" alt="WatuTech logo" width={140} height={40} style={{ flexShrink: 0 }} />
           </a>
           <ul style={{ display: 'flex', gap: '2rem', listStyle: 'none' }}>
-            <li><a href="#layanan" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Layanan</a></li>
-            <li><a href="#keunggulan" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Keunggulan</a></li>
-            <li><a href="#portfolio" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Portfolio</a></li>
-            <li><a href="#kontak" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Kontak</a></li>
+            <li><a href="#layanan" style={{ color: '#0066cc', textDecoration: 'none', cursor: 'pointer' }}>Layanan</a></li>
+            <li><a href="#keunggulan" style={{ color: '#0066cc', textDecoration: 'none', cursor: 'pointer' }}>Keunggulan</a></li>
+            <li><a href="#portfolio" style={{ color: '#0066cc', textDecoration: 'none', cursor: 'pointer' }}>Portfolio</a></li>
+            <li><a href="#kontak" style={{ color: '#0066cc', textDecoration: 'none', cursor: 'pointer' }}>Kontak</a></li>
           </ul>
-          <a href="#kontak" style={{ background: 'white', color: '#0066cc', padding: '0.7rem 1.5rem', borderRadius: '5px', textDecoration: 'none', fontWeight: 'bold', cursor: 'pointer' }}>Hubungi Kami</a>
+          <a href="#kontak" style={{ background: '#0066cc', color: 'white', padding: '0.7rem 1.5rem', borderRadius: '5px', textDecoration: 'none', fontWeight: 'bold', cursor: 'pointer', border: 'none' }}>Hubungi Kami</a>
         </nav>
       </header>
 
