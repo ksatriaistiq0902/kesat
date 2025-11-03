@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* Advantages Section */}
-      <section id="keunggulan" style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto', background: 'linear-gradient(135deg, #0066cc 0%, #00a8e8 100%)', color: 'white', }}>
+      <section id="keunggulan" style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto', background: 'linear-gradient(135deg, #0066cc 0%, #00a8e8 100%)', color: 'black', }}>
         <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '3rem' }}>Keunggulan WatuTech</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
           {[
