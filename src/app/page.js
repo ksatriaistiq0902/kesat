@@ -678,7 +678,7 @@ export default function Home() {
               <div style={{ display: "inline-block", background: "rgba(255,255,255,0.15)", borderRadius: 999, padding: "0.35rem 1rem", fontSize: "0.82rem", fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", marginBottom: "1rem" }}>
                 Keunggulan
               </div>
-              <h2 style={{ fontFamily: "'Syne', sans-serif", fontSize: "2.4rem", fontWeight: 800, letterSpacing: "-0.5px" }}>
+              <h2 style={{ fontFamily: "'Syne', sans-serif", fontSize: "2.4rem", fontWeight: 850, letterSpacing: "-0.5px" }}>
                 Mengapa Pilih WatuTech?
               </h2>
               <p style={{ opacity: 0.8, fontSize: "1.05rem", marginTop: "0.8rem" }}>
