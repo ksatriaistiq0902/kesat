@@ -500,7 +500,7 @@ export default function Home() {
         <nav style={{ maxWidth: 1200, margin: "0 auto", padding: "0 2rem", height: 68, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           {/* Logo */}
           <a href="#" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
-            <div style={{ width: 38, height: 38, borderRadius: 10, background: "linear-gradient(135deg, #0066cc, #00bfff)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.3rem" }}>⚡</div>
+            <img src="/icon.png" alt="WatuTech Logo" style={{ width: 38, height: 38, objectFit: "contain" }} />
             <span style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "1.25rem", color: "#1a2b4a", letterSpacing: "-0.5px" }}>
               Watu<span style={{ color: "#0066cc" }}>Tech</span>
             </span>
@@ -512,7 +512,7 @@ export default function Home() {
               <li key={item}>
                 <a href={`#${item.toLowerCase()}`} className="nav-link">{item}</a>
               </li>
-            ))}
+            ))}y
           </ul>
 
           <div className="desktop-nav" style={{ gap: 12, alignItems: "center" }}>
@@ -825,7 +825,7 @@ export default function Home() {
       <footer style={{ background: "#0d1b2e", color: "#94a3b8", padding: "2.5rem 2rem", textAlign: "center" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: "1rem" }}>
-            <div style={{ width: 32, height: 32, borderRadius: 8, background: "linear-gradient(135deg, #0066cc, #00bfff)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>⚡</div>
+            <img src="/icon.png" alt="WatuTech Logo" style={{ width: 32, height: 32, objectFit: "contain" }} />
             <span style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "1.1rem", color: "white" }}>
               Watu<span style={{ color: "#0099dd" }}>Tech</span>
             </span>
