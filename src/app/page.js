@@ -512,7 +512,7 @@ export default function Home() {
               <li key={item}>
                 <a href={`#${item.toLowerCase()}`} className="nav-link">{item}</a>
               </li>
-            ))}y
+            ))}
           </ul>
 
           <div className="desktop-nav" style={{ gap: 12, alignItems: "center" }}>
