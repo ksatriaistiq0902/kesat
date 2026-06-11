@@ -269,6 +269,19 @@ function FAQItem({ q, a, idx }) {
   );
 }
 
+// ─── Metadata & SEO ───────────────────────────────────────────────────────────
+export const metadata = {
+  title: "WatuTech - Trainer Elektronik & Digital Berkualitas | Tugas Akhir & Training",
+  description: "Solusi terpercaya untuk trainer elektronik custom, software trainer, dan pelatihan teknis. Kami melayani mahasiswa teknik dan perusahaan dengan kualitas terbaik dan harga terjangkau.",
+  keywords: ["trainer elektronik", "tugas akhir", "training pelatihan", "robotika", "IoT", "PLC", "SCADA", "embedded system"],
+  openGraph: {
+    title: "WatuTech - Trainer Elektronik & Digital",
+    description: "Solusi trainer untuk mahasiswa dan perusahaan dengan kualitas terbaik",
+    url: "https://watutech.com",
+    type: "website",
+  },
+};
+
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("Semua");
@@ -278,6 +291,44 @@ export default function Home() {
 
   return (
     <div style={{ fontFamily: "'DM Sans', sans-serif", color: "#1a2b4a", overflowX: "hidden" }}>
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "WatuTech",
+          "url": "https://watutech.com",
+          "logo": "https://watutech.com/icon.png",
+          "description": "Solusi terpercaya untuk trainer elektronik custom, software trainer, dan pelatihan teknis",
+          "sameAs": [
+            "https://wa.me/6282220963693"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Condongcatur",
+            "addressLocality": "Sleman",
+            "addressRegion": "DIY",
+            "postalCode": "55283",
+            "addressCountry": "ID"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62-822-2096-3693",
+            "contactType": "Customer Service",
+            "availableLanguage": ["id", "en"]
+          },
+          "areaServed": "ID",
+          "knowsAbout": [
+            "Trainer Elektronik",
+            "Robotika",
+            "IoT",
+            "PLC",
+            "Embedded Systems",
+            "PCB Design",
+            "Software Development"
+          ]
+        })}
+      </script>
+
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
