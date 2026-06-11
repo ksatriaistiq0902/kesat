@@ -7,6 +7,7 @@ function Counter({ end, suffix = "", duration = 2000 }) {
   const ref = useRef(null);
   const started = useRef(false);
 
+  
   useEffect(() => {
     const obs = new IntersectionObserver(
       ([entry]) => {
