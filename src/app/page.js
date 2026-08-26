@@ -169,8 +169,8 @@ const PORTFOLIO = [
 ];
 
 const STATS = [
-  { label: "Proyek Selesai", end: 250, suffix: "+" },
-  { label: "Klien Puas", end: 180, suffix: "+" },
+  { label: "Proyek Selesai", end: 10, suffix: "+" },
+  { label: "Klien Puas", end: 8, suffix: "+" },
   { label: "Tahun Pengalaman", end: 5, suffix: "+" },
   { label: "Kota Terjangkau", end: 20, suffix: "+" },
 ];
@@ -268,19 +268,6 @@ function FAQItem({ q, a, idx }) {
     </div>
   );
 }
-
-// ─── Metadata & SEO ───────────────────────────────────────────────────────────
-export const metadata = {
-  title: "WatuTech - Trainer Elektronik & Digital Berkualitas | Tugas Akhir & Training",
-  description: "Solusi terpercaya untuk trainer elektronik custom, software trainer, dan pelatihan teknis. Kami melayani mahasiswa teknik dan perusahaan dengan kualitas terbaik dan harga terjangkau.",
-  keywords: ["trainer elektronik", "tugas akhir", "training pelatihan", "robotika", "IoT", "PLC", "SCADA", "embedded system"],
-  openGraph: {
-    title: "WatuTech - Trainer Elektronik & Digital",
-    description: "Solusi trainer untuk mahasiswa dan perusahaan dengan kualitas terbaik",
-    url: "https://watutech.com",
-    type: "website",
-  },
-};
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function Home() {
