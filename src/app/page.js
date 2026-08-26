@@ -826,7 +826,7 @@ export default function Home() {
             {[
               { icon: "📞", label: "WhatsApp / Telepon", value: "+62 822-2096-3693", href: "https://wa.me/6282220963693" },
               { icon: "📧", label: "Email", value: "watutech.id@gmail.com", href: "mailto:watutech.id@gmail.com" },
-              { icon: "📍", label: "Lokasi", value: "Condongcatur, Sleman, DIY", href: "https://maps.google.com" },
+              { icon: "📍", label: "Lokasi", value: "Condongcatur, Sleman, DIY", href: "hhttps://maps.app.goo.gl/CJMiuAvLeEcngpxK8" },
             ].map((c, i) => (
               <FadeIn key={i} delay={i * 80}>
                 <a href={c.href} target="_blank" rel="noreferrer"
